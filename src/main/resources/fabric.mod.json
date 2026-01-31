@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "leet",
+  "version": "1.9.8",
+  "name": "leet: encrypted",
+  "description": "leet: encrypted is a version of the private MC software, developed by snix1337 with mind and a sense of style.",
+  "authors": [
+    "snix1337"
+  ],
+  "contact": {
+    "website": "",
+    "repo": "none"
+  },
+  "accessWidener": "leet.accesswidener",
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "funny.leet.core.Main"
+    ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric": "*",
+    "minecraft": "1.21.4"
+  }
+}
